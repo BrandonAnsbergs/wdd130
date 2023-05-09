@@ -1,0 +1,36 @@
+body {
+    background-color: aliceblue;
+}
+h1 {
+    background-color: aqua;
+    color: blue;
+    padding: 10px 20px;
+    margin: 20px;
+    border: 5px solid plum;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#smaller {
+    font-size: 1.3em;
+    background-color: deepskyblue;
+}
+
+.highlight {
+    background-color: hotpink;
+}
+
+h2 {
+    background-color: purple;
+    color: palevioletred;
+    padding: 8px 16px;
+    margin: 16px;
+    border: 5px solid plum;
+    border-radius: 16px;
+    text-align: center;
+}
+
+#orange {
+    font-size: 1.6em;
+    background-color: orange;
+}
