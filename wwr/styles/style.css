@@ -74,6 +74,10 @@ footer {
 footer p {
     font-size: 1.2em;
 }
+footer p a:link, footer p a:visited, footer p a:hover, footer p a:active, footer p a:focus {
+    text-decoration: none;
+    color:white;
+}
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }    
