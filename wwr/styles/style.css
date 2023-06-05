@@ -5,13 +5,13 @@
     margin: auto;
 }
 #hero {
-    display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px; 
 }
 #hero, .home-grid {
     display: block;
     height: auto;
+    display: grid;
 }
 #hero-box {
     grid-column: 1/4;
@@ -161,7 +161,7 @@ h4 {
 .card-img {
     border: 10px solid #7c7496;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #6f7364; 
 }
 .card-img:hover {
     opacity: .6;
