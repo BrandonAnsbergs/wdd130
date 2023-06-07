@@ -1,0 +1,78 @@
+
+.div {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+}
+
+.image {
+    grid-column: 1/2;
+    grid-row: 1/7;
+    max-width: 100%;
+    max-height: 100%;
+}
+.h1 {
+    grid-column: 2/3;
+    text-align: center;
+    grid-row: 1/2;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 3em;
+    margin-top: 5px;
+}
+.download {
+    grid-column: 2/3;
+    text-align: center;
+    grid-row: 2/3;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-size: 1.5em;
+    margin-top: 0px;
+}
+.email {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 450px;
+    height: 50px;
+    border: 2px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+.name {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    width: 450px;
+    height: 50px;
+    border: 2px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.opt {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+.checkbox {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    width: 12px;
+    margin-top: -20px;
+    margin-left: 70px;
+}
+.subscribe {
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    grid-column: 2/3;
+    grid-row: 6/7;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+}
