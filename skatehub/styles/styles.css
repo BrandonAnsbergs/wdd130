@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Orbitron:wght@500&family=Sedgwick+Ave+Display&family=Teko:wght@500&display=swap');
+body {
+    background: rgb(138,63,213);
+    background: linear-gradient(0deg, rgba(138,63,213,1) 0%, rgb(27, 219, 222) 85%);
+}
 #content {
     max-width: 1600px;
     margin: auto;
@@ -7,8 +11,7 @@ header {
     grid-template-rows: 400px;
 }
 #hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 400px;
     margin-top: -100px; 
 }
@@ -20,7 +23,6 @@ header {
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
-
 }
 #hero-img {
     width: 100%;
@@ -33,11 +35,9 @@ nav {
     display: flex;
     justify-content: space-around;
     grid-row: 1/2;
-    grid-column: 1/6;
-    margin-top: -132px;
+    margin-top: -136px;
     z-index: 1;
 }
-
 nav a {
     text-align: center;
     text-decoration: none;
@@ -47,11 +47,213 @@ nav a {
     font-size: 40px;
 }
 nav a:hover {
-    background-color: #8A3FD5 ;
     text-decoration: none;
     font-family: "Sedgwick Ave Display";
     color: white;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 5px 5px 5px #210c36;
     font-size: 50px;
-    
+}
+.home-grid {
+    display: grid;
+    grid-template-rows: 400px 500px 300px 650px 650px 400px;
+    grid-template-columns: 1fr 1fr;
+}
+h2 {
+    margin-top: 50px;
+    padding: 100px;
+    font-size: 50px;
+    font-family: "Sedgwick Ave Display";
+    color: #562E80;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.msg {
+    background-color: #8A3FD5;
+    padding: 80px;
+    margin: 50px 0px;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    box-shadow: 5px 5px 10px #562E80;
+}
+.msg p {
+    background-color: #8A3FD5;
+    color: white;
+    font-family: Anton, Teko, Orbitron;
+    font-size: 1.75em;
+    padding-bottom: 15px;
+    margin-left: 550px;
+    text-align: center;
+    line-height: 1.5em; 
+    margin-top: 0px;
+}
+.skaters {
+    max-width: 500px;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    margin-left: 50px;
+    margin-top: 84px;
+    z-index: 1;
+    box-shadow: 5px 5px 10px #562E80;
+}
+h3 {
+    grid-row: 3/4;
+    grid-column: 1/3;
+    font-size: 50px;
+    font-family: "Sedgwick Ave Display";
+    color: #562E80;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.text {
+    font-size: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 0px;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 451px;
+    width: 451px; 
+    opacity: 0;
+    margin-left: 151px;
+    margin-top: 14px;
+    transition: .5s ease;
+    background: rgb(138,63,213);
+    background: linear-gradient(0deg, rgba(138,63,213,1) 0%, rgb(27, 219, 222) 85%);
+  }
+.hawk:hover .overlay, .buntjam:hover .overlay, .sharks:hover .overlay, .thegap:hover .overlay, .sls:hover .overlay, .bowlrippers:hover .overlay {
+    opacity: 1;
+}
+.hawk {
+    position:relative;
+    grid-row: 4/5;
+    grid-column: 1/2;
+    text-align: center;
+}
+.hawk img {
+    border: 15px solid #562E80;
+    box-shadow: 5px 5px 10px #562E80;
+}
+.hawk p {
+    text-align: center;
+    font-family: "Sedgwick Ave Display";
+    color: #210c36;
+}
+.buntjam {
+    position:relative;
+    grid-row: 4/5;
+    grid-column: 2/3;
+    text-align: center;
+}
+.buntjam img {
+    border: 15px solid #562E80;
+    box-shadow: 5px 5px 10px #562E80;
+}
+.buntjam p {
+    text-align: center;
+    font-family: "Sedgwick Ave Display";
+    color: #210c36;
+}
+.sharks {
+    position: relative;
+    grid-row: 5/6;
+    grid-column: 1/2;
+    text-align: center;
+}
+.sharks img {
+    border: 15px solid #562E80;
+    box-shadow: 5px 5px 10px #562E80;
+}
+.sharks p {
+    text-align: center;
+    font-family: "Sedgwick Ave Display";
+    color: #210c36;
+}
+.thegap {
+    position: relative;
+    grid-row: 5/6;
+    grid-column: 2/3;
+    text-align: center;
+}
+.thegap img {
+    border: 15px solid #562E80;
+    box-shadow: 5px 5px 10px #562E80;
+}
+.thegap p {
+    text-align: center;
+    font-family: "Sedgwick Ave Display";
+    color: #210c36;
+}
+.sls {
+    position: relative;
+    grid-row: 6/7;
+    grid-column: 1/2;
+    text-align: center;
+}
+.sls img {
+    border: 15px solid #562E80;
+    box-shadow: 5px 5px 10px #562E80;
+}
+.sls p {
+    text-align: center;
+    font-family: "Sedgwick Ave Display";
+    color: #210c36;
+}
+.bowlrippers {
+    position: relative;
+    grid-row: 6/7;
+    grid-column: 2/3;
+    text-align: center;
+}
+.bowlrippers img{
+    border: 15px solid #562E80;
+    box-shadow: 5px 5px 10px #562E80;
+}
+.bowlrippers p {
+    text-align: center;
+    font-family: "Sedgwick Ave Display";
+    color: #210c36;
+}
+footer {
+    background-color: #8A3FD5 ;
+    color: #1bdbde;
+    text-decoration: none;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p {
+    font-size: 35px;
+    font-family: "Sedgwick Ave Display";
+}
+footer p a:link, footer p a:visited, footer p a:hover, footer p a:active, footer p a:focus {
+    text-decoration: none;
+    color:#1bdbde;
+}
+footer p a:hover {
+    background-color: #8A3FD5;
+    text-decoration: none;
+    font-family: "Sedgwick Ave Display";
+    color: white;
+    text-shadow: 5px 5px 5px #210c36;
+    font-size: 50px;
+}
+footer .social img {
+    padding-left: 5px;
+    padding-right: 5px;
 }
