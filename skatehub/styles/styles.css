@@ -238,6 +238,9 @@ footer {
     align-items: center;
 }
 footer p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #1bdbde;
     font-size: 35px;
     font-family: "Sedgwick Ave Display";
 }
@@ -257,3 +260,88 @@ footer .social img {
     padding-left: 5px;
     padding-right: 5px;
 }
+.lab_grid {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 500px 1fr 750px 750px;
+}
+.title {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.title h2 {
+    margin-top: 100px;
+    margin-top: 225px;
+    padding: 0px;
+}
+.title h3 {
+    margin-top: 0px;
+}
+.deck {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.deck h2 {
+    padding: 0;
+    margin-top: 100px;
+}
+.grip {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.grip h2 {
+    padding: 0;
+    margin-top: 150px;
+}
+.vid {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.vid h2 {
+    padding: 0;
+    margin-top: 150px;
+}
+.skate_wall {
+    display: block;
+    max-width: 550px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border: 15px solid #562E80;
+    box-shadow: 5px 5px 10px #562E80;
+}
+p {
+    color: white;
+    font-family: Anton, Teko, Orbitron;
+    font-size: 1.75em;
+    padding-bottom: 15px;
+    text-align: center;
+    line-height: 1.5em; 
+    margin-top: 0px;
+}
+.deck_sizes {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 15px solid #562E80;
+    box-shadow: 5px 5px 10px #562E80;
+}
+.grip_tape {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    border: 15px solid #562E80;
+    box-shadow: 5px 5px 10px #562E80;
+}
+.how_to_vid {
+    width: 750px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    border: 15px solid #562E80;
+    box-shadow: 5px 5px 10px #562E80;
+}
+
