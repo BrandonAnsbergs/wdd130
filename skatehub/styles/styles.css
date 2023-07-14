@@ -1,17 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Orbitron:wght@500&family=Sedgwick+Ave+Display&family=Teko:wght@500&display=swap');
 body {
-    /* background: rgb(138,63,213); */
     background-image: linear-gradient(0deg, rgba(138,63,213,1) 0%, rgb(27, 219, 222) 85%);;
     background-repeat: repeat;
-    /* background-size: cover; */
     margin:0;
 }
 #content {
-    /* max-width: 1600px; */
     margin: auto;
     background-image: url("/images/graffiti2.png");
     background-size:contain;
-
 }
 header {
     grid-template-rows: 400px;
