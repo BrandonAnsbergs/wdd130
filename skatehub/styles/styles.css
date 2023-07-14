@@ -6,7 +6,7 @@ body {
 }
 #content {
     margin: auto;
-    background-image: url("/images/graffiti2.png");
+    background-image: url("/skatehub/images/graffiti2.png");
     background-size:contain;
 }
 header {
