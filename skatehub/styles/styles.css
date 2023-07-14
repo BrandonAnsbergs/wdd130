@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Orbitron:wght@500&family=Sedgwick+Ave+Display&family=Teko:wght@500&display=swap');
 body {
-    background: rgb(138,63,213);
-    background: linear-gradient(0deg, rgba(138,63,213,1) 0%, rgb(27, 219, 222) 85%);
+    /* background: rgb(138,63,213); */
+    background-image: linear-gradient(0deg, rgba(138,63,213,1) 0%, rgb(27, 219, 222) 85%);;
+    background-repeat: repeat;
+    /* background-size: cover; */
+    margin:0;
 }
 #content {
-    max-width: 1600px;
+    /* max-width: 1600px; */
     margin: auto;
+    background-image: url("/images/graffiti2.png");
+    background-size:contain;
+
 }
 header {
     grid-template-rows: 400px;
@@ -130,7 +136,7 @@ h3 {
     height: 451px;
     width: 451px; 
     opacity: 0;
-    margin-left: 151px;
+    margin-left: 155px;
     margin-top: 14px;
     transition: .5s ease;
     background: rgb(138,63,213);
@@ -230,7 +236,6 @@ h3 {
     color: #210c36;
 }
 footer {
-    background-color: #8A3FD5 ;
     color: #1bdbde;
     text-decoration: none;
     margin-top: 200px;
